@@ -21,7 +21,7 @@ suite.addTest(test_case)
 now = time.strftime("%Y-%m-%d %H_%M_%S")
 
 # 引入测试报告
-file_path = "./report" + "login_test_report" + now + ".html"    # 确定测试报告的存放路径
+file_path = "./reports/" + "test_report" + now + ".html"    # 确定测试报告的存放路径
 
 title = "xxx 测试报告"
 descr = "xxx 的接口测试"
